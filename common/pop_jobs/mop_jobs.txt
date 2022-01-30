@@ -7,9 +7,10 @@ eco_environment_preservor = {
 	building_icon = building_autochthon_monument
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 	
 	resources = {
 		category = planet_jobs
@@ -94,9 +95,10 @@ eco_environment_custodianship = {
 	building_icon = building_organic_sanctuary
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 	
 	resources = {
 		category = planet_jobs
@@ -308,9 +310,10 @@ trade_free_manager = {
 	building_icon = building_temple
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 
 	planet_modifier = {
 		trade_value_mult = 0.01
@@ -541,9 +544,10 @@ mining_miner_overseer = {
 	building_icon = building_crystal_mines
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 	
 	resources = {
 		category = planet_jobs
@@ -703,9 +707,10 @@ energy_technician_overseer = {
 	building_icon = building_power_plant
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 	
 	resources = {
 		category = planet_jobs
@@ -769,9 +774,10 @@ energy_building_custodianship = {
 	building_icon = building_maintenance_depot
 	clothes_texture_index = 3
 	
+	possible_precalc = can_fill_specialist_job
+	
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 	
 	resources = {
 		category = planet_jobs

@@ -9,40 +9,68 @@ district_generator = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
+		NOR = {
+			is_planet_class = pc_ecocity
+			is_planet_class = pc_archive
+		}
+		NOR = {
+			is_planet_class = pc_machine_factory
+			is_planet_class = pc_bioforge
+		}
+		NOR = {
+			is_planet_class = pc_trade
+			is_planet_class = pc_mining
+		}
+		NOR = {
+			is_planet_class = pc_energy
+			is_planet_class = pc_farming
+		}
+		NOR = {
+			is_planet_class = pc_eco
+			is_planet_class = pc_training
+		}
 		NOT = { is_planet_class = pc_training_shielded }
 		
 	}
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
+		NOR = {
+			is_planet_class = pc_ecocity
+			is_planet_class = pc_archive
+		}
+		NOR = {
+			is_planet_class = pc_machine_factory
+			is_planet_class = pc_bioforge
+		}
+		NOR = {
+			is_planet_class = pc_trade
+			is_planet_class = pc_mining
+		}
+		NOR = {
+			is_planet_class = pc_energy
+			is_planet_class = pc_farming
+		}
+		NOR = {
+			is_planet_class = pc_eco
+			is_planet_class = pc_training
+		}
 		NOT = { is_planet_class = pc_training_shielded }
 	}
 	
@@ -602,38 +630,66 @@ district_mining = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
-		NOT = { is_planet_class = pc_training_shielded }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity
+		}
+		NOR = {
+			is_planet_class = pc_archive
+			is_planet_class = pc_machine_factory
+		}
+		NOR = {
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_trade
+		}
+		NOR = {
+			is_planet_class = pc_mining
+			is_planet_class = pc_energy
+		}
+		NOR = {
+			is_planet_class = pc_farming
+			is_planet_class = pc_eco
+		}
+		NOR = {
+			is_planet_class = pc_training
+			is_planet_class = pc_training_shielded
+		}
 	}
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
-		NOT = { is_planet_class = pc_training_shielded }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity
+		}
+		NOR = {
+			is_planet_class = pc_archive
+			is_planet_class = pc_machine_factory
+		}
+		NOR = {
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_trade
+		}
+		NOR = {
+			is_planet_class = pc_mining
+			is_planet_class = pc_energy
+		}
+		NOR = {
+			is_planet_class = pc_farming
+			is_planet_class = pc_eco
+		}
+		NOR = {
+			is_planet_class = pc_training
+			is_planet_class = pc_training_shielded
+		}
 	}
 	
 	allow = {
@@ -1071,38 +1127,66 @@ district_farming = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
-		NOT = { is_planet_class = pc_training_shielded }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity
+		}
+		NOR = {
+			is_planet_class = pc_archive
+			is_planet_class = pc_machine_factory
+		}
+		NOR = {
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_trade
+		}
+		NOR = {
+			is_planet_class = pc_mining
+			is_planet_class = pc_energy
+		}
+		NOR = {
+			is_planet_class = pc_farming
+			is_planet_class = pc_eco
+		}
+		NOR = {
+			is_planet_class = pc_training
+			is_planet_class = pc_training_shielded
+		}
 	}
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ecocity }
-		NOT = { is_planet_class = pc_archive }
-		NOT = { is_planet_class = pc_machine_factory }
-		NOT = { is_planet_class = pc_bioforge }
-		NOT = { is_planet_class = pc_trade }
-		NOT = { is_planet_class = pc_mining }
-		NOT = { is_planet_class = pc_energy }
-		NOT = { is_planet_class = pc_farming }
-		NOT = { is_planet_class = pc_eco }
-		NOT = { is_planet_class = pc_training }
-		NOT = { is_planet_class = pc_training_shielded }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ecocity
+		}
+		NOR = {
+			is_planet_class = pc_archive
+			is_planet_class = pc_machine_factory
+		}
+		NOR = {
+			is_planet_class = pc_bioforge
+			is_planet_class = pc_trade
+		}
+		NOR = {
+			is_planet_class = pc_mining
+			is_planet_class = pc_energy
+		}
+		NOR = {
+			is_planet_class = pc_farming
+			is_planet_class = pc_eco
+		}
+		NOR = {
+			is_planet_class = pc_training
+			is_planet_class = pc_training_shielded
+		}
 	}
 	
 	allow = {

@@ -9,10 +9,14 @@ district_generator = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }
@@ -25,10 +29,14 @@ district_generator = {
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }
@@ -255,10 +263,14 @@ district_mining = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }
@@ -271,10 +283,14 @@ district_mining = {
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }
@@ -507,10 +523,14 @@ district_farming = {
 	
 	show_on_uncolonized = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }
@@ -523,10 +543,14 @@ district_farming = {
 	
 	potential = {
 		habitable_structure = no
-		NOT = { is_planet_class = pc_machine }
-		NOT = { is_planet_class = pc_hive }
-		NOT = { is_planet_class = pc_city }
-		NOT = { is_planet_class = pc_ringworld_habitable }
+		NOR = {
+			is_planet_class = pc_machine
+			is_planet_class = pc_hive
+		}
+		NOR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_ringworld_habitable
+		}
 		#Master of the planet
 		NOT = { is_planet_class = pc_trade }
 		NOT = { is_planet_class = pc_mining }

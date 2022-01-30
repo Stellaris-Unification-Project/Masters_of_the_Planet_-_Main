@@ -38,8 +38,10 @@ district_city = {
 	}
 	
 	allow = {
-		NOT = { has_modifier = resort_colony }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 	}
 
 	conversion_ratio = 0.5
@@ -91,7 +93,7 @@ district_city = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_non_swapped_tradition = tr_prosperity_public_works }
+			owner = { has_active_tradition = tr_prosperity_public_works }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -126,7 +128,7 @@ district_city = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_non_swapped_tradition = tr_prosperity_interstellar_franchising }
+			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
 		}
 		modifier = {
 			job_clerk_add = 1
@@ -148,7 +150,7 @@ district_city = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 		}
@@ -170,7 +172,7 @@ district_city = {
 				num_free_districts = { type = district_generator value > 0 }
 				num_free_districts = { type = district_farming value > 0 }
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {
@@ -291,7 +293,7 @@ district_hive = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_swapped_tradition = tr_prosperity_extended_hives }
+			owner = { has_active_tradition = tr_prosperity_extended_hives }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -305,7 +307,7 @@ district_hive = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 		}
@@ -327,7 +329,7 @@ district_hive = {
 				num_free_districts = { type = district_generator value > 0 }
 				num_free_districts = { type = district_farming value > 0 }
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {
@@ -450,7 +452,7 @@ district_nexus = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_swapped_tradition = tr_prosperity_optimized_nexus }
+			owner = { has_active_tradition = tr_prosperity_optimized_nexus }
 		}
 		modifier = {
 			planet_housing_add = 1
@@ -464,7 +466,7 @@ district_nexus = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 		}
@@ -486,7 +488,7 @@ district_nexus = {
 				num_free_districts = { type = district_generator value > 0 }
 				num_free_districts = { type = district_farming value > 0 }
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {

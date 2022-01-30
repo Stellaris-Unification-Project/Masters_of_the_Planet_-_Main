@@ -129,7 +129,7 @@ mop_creating = {
 		set_species_flag = mop_recently_created_@root
 	}
 	create_pop = {
-		species = last_created
+		species = last_created_species
 	}
 	while = {
 		limit = {
@@ -160,14 +160,14 @@ mop_reset_traits = {
 	owner = {
 		every_owned_pop = {
 			limit = { is_same_species = event_target:mop_changing_species }
-			change_species = last_created
+			change_species = last_created_species
 		}
 		every_owned_ship = {
 			limit = {
 				is_ship_class = shipclass_colonizer
 				is_same_species = event_target:mop_changing_species
 			}
-			change_species = last_created
+			change_species = last_created_species
 		}
 	}
 

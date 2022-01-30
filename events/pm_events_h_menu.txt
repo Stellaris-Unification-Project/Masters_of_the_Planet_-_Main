@@ -732,8 +732,10 @@ planet_event = {
 					exists = owner
 					owner = { 
 						has_country_flag = high_planet_a
-						NOT = { has_country_flag = high_planet_b }
-						NOT = { has_country_flag = high_planet_c }
+						NOR = {
+							has_country_flag = high_planet_b
+							has_country_flag = high_planet_c
+						}
 					}
 				}
 				remove_modifier = "high_planet_bad"
@@ -1116,8 +1118,10 @@ planet_event = {
 						has_modifier = "connected_hm"
 						owner = { 
 							has_country_flag = high_planet_a
-							NOT = { has_country_flag = high_planet_b }
-							NOT = { has_country_flag = high_planet_c }
+							NOR = {
+								has_country_flag = high_planet_b
+								has_country_flag = high_planet_c
+							}
 						}
 					}
 					remove_modifier = "high_planet_bad"
