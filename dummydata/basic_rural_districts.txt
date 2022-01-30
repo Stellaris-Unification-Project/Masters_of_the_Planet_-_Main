@@ -12,24 +12,14 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}
@@ -40,24 +30,14 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}
@@ -271,24 +251,14 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}
@@ -299,24 +269,14 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}
@@ -518,24 +478,14 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}
@@ -546,24 +496,14 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ecocity
-		}
-		NOR = {
 			is_planet_class = pc_archive
 			is_planet_class = pc_trade
-		}
-		NOR = {
 			is_planet_class = pc_mining
 			is_planet_class = pc_energy
-		}
-		NOR = {
 			is_planet_class = pc_farming
 			is_planet_class = pc_eco
-		}
-		NOR = {
 			is_planet_class = pc_training
 			is_planet_class = pc_training_shielded
 		}

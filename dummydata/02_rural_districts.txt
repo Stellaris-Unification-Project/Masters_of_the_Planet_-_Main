@@ -12,8 +12,6 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
@@ -32,8 +30,6 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
@@ -266,8 +262,6 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
@@ -286,8 +280,6 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
@@ -526,8 +518,6 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
@@ -546,8 +536,6 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
 		}
